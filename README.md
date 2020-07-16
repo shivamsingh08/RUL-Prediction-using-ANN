@@ -17,6 +17,7 @@ Use the link https://github.com/subpath/neuro-evolution.git to get the pre-built
 package for hyperparameter tuning.
 
 Best parameters come out to be:
+
 ["epochs": 20,
 "batch_size": 40,
 "n_layers": 2,
