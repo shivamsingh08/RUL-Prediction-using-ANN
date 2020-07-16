@@ -13,10 +13,11 @@ of the last five holes for each drill bit.
 
 Using GA for tuning Hyperparameters for the Neural Network:
 
-- Use the link https://github.com/subpath/neuro-evolution.git to get the pre-built-in
+Use the link https://github.com/subpath/neuro-evolution.git to get the pre-built-in
 package for hyperparameter tuning.
+
 Best parameters come out to be:
-"epochs": 20,
+["epochs": 20,
 "batch_size": 40,
 "n_layers": 2,
 "n_neurons": 60,
@@ -25,4 +26,4 @@ Best parameters come out to be:
 "activations": "relu",
 "last_layer_activations": "relu",
 "losses": "mean_squared_error",
-"metrics": "MSE"
+"metrics": "MSE"]
